@@ -12,7 +12,12 @@ Currently, Stricture provides 5 classes:
 - `Command` - A basic utility for easily running terminal commands and collecting their output.
 - `CommandStricture` - A differentiated `Stricture` used to start and stop terminal commands (using the `Command` Class) given a `Schedule` or other condition.
 
-___
+
+## Install
+```bash
+pip install Stricture
+```
+
 ## Documentation
 - [Stricture Demo](./example/Example.md)
   - [Why?](./example/Example.md#why)
