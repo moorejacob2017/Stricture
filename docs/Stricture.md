@@ -177,7 +177,7 @@ logging.basicConfig(
 
 ### `execute` (Optional)
 __WARNING:__ Setting the `execute` function is __not__ recommended for general usage. However, changing the execution flow may be desired in some rare situations. Therefore, the option to change the default functionality has been left to the users. Modify at your own risk.
-- A function that handles all abstracted function calls, condition checks, and the execution flow of the `Stricture` class (them main "body" of the class).
+- A function that handles all abstracted function calls, condition checks, and the execution flow of the `Stricture` class (the main "body" of the class).
 - Wraps all prior abstracted methods into a templated function. 
 - Is not recommended to modify.
 - Can be set via `Stricture` instantiation with `execute_func`, `execute_args`, and `execute_kwargs`.
@@ -185,26 +185,26 @@ __WARNING:__ Setting the `execute` function is __not__ recommended for general u
 
 ## Instantiation
 - [Instantiation Example](#instantiation-example)
-- `schedule: stricture.Schedule`
-- `sleep_duration: int`
-- `launch_func: function`
-- `launch_args: list[*]`
-- `launch_kwargs: dict{str,*}`
-- `pause_func: function`
-- `pause_args: list[*]`
-- `pause_kwargs: dict{str,*}`
-- `resume_func: function`
-- `resume_args: list[*]`
-- `resume_kwargs: dict{str,*}`
-- `is_alive_func: function`
-- `is_alive_args: list[*]`
-- `is_alive_kwargs: dict{str,*}`
-- `condition_func: function`
-- `condition_args: list[*]`
-- `condition_kwargs: dict{str,*}`
-- `execute_func: function`
-- `execute_args: list[*]`
-- `execute_kwargs: dict{str,*}`
+  - [`schedule: stricture.Schedule`](#schedule-strictureschedule)
+  - [`sleep_duration: int`](#sleep_duration-int)
+  - [`launch_func: function`](#launch_func-function)
+  - [`launch_args: list[*]`](#launch_args-list)
+  - [`launch_kwargs: dict{str,*}`](#launch_kwargs-dictstr)
+  - [`pause_func: function`](#pause_func-function)
+  - [`pause_args: list[*]`](#pause_args-list)
+  - [`pause_kwargs: dict{str,*}`](#pause_kwargs-dictstr)
+  - [`resume_func: function`](#resume_func-function)
+  - [`resume_args: list[*]`](#resume_args-list)
+  - [`resume_kwargs: dict{str,*}`](#resume_kwargs-dictstr)
+  - [`is_alive_func: function`](#is_alive_func-function)
+  - [`is_alive_args: list[*]`](#is_alive_args-list)
+  - [`is_alive_kwargs: dict{str,*}`](#is_alive_kwargs-dictstr)
+  - [`condition_func: function`](#condition_func-function)
+  - [`condition_args: list[*]`](#condition_args-list)
+  - [`condition_kwargs: dict{str,*}`](#condition_kwargs-dictstr)
+  - [`execute_func: function`](#execute_func-function)
+  - [`execute_args: list[*]`](#execute_args-list)
+  - [`execute_kwargs: dict{str,*}`](#execute_kwargs-dictstr)
 
 
 ### Instantiation Example
@@ -341,14 +341,14 @@ A `dict` of keyword arguments to be passed to the `execute` method (supplied by 
 
 
 ## Methods
-- `set_schedule`
-- `set_launch`
-- `set_pause`
-- `set_resume`
-- `set_is_alive`
-- `set_condition`
-- `set_execute`
-- `execute`
+  - [`set_schedule`](#set_schedule)
+  - [`set_launch`](#set_launch)
+  - [`set_pause`](#set_pause)
+  - [`set_resume`](#set_resume)
+  - [`set_is_alive`](#set_is_alive)
+  - [`set_condition`](#set_condition)
+  - [`set_execute`](#set_execute)
+  - [`execute`](#execute)
 
 
 ### `set_schedule`
