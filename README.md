@@ -49,7 +49,7 @@ pip install Stricture
 - [`Stricture` Class](./docs/Stricture.md)
   - [About](./docs/Stricture.md#about)
   - [Logging](./docs/Stricture.md#logging)
-  - [Abstracted Method Behaviors & Requirements](./docs/Stricture.md#abstracted-method-behaviors--requirements)
+  - [Abstract Method Behaviors & Requirements](./docs/Stricture.md#abstract-method-behaviors--requirements)
     - [`launch` (Optional)](./docs/Stricture.md#launch-optional)
     - [`pause` (Required)](./docs/Stricture.md#pause-required)
     - [`resume` (Required)](./docs/Stricture.md#resume-required)
