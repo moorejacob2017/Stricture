@@ -3,7 +3,7 @@
 ![link](logos/stricture_logo_white_long.png)
 
 
-Stricture is a python package that provides classes and a CLI tool for easy scheduling, automating, and managing specific operations.
+Stricture is a python package that provides classes and a CLI tool for easy scheduling, automating, and managing of specific operations.
 
 Currently, Stricture provides 5 classes:
 - `Schedule` - Used to determine if the current date and time falls within a user defined schedule. Provides a variety of functionality that promotes human readable schedules, ranging from broad week-to-week bases, to granular date and time ranges.
