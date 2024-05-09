@@ -51,7 +51,7 @@ Examples:
 #   restricted - Days are considered in schedule, but only for the
 #                time range defined by start_time and stop_time.
 #   unrestricted - All 24 hours of the day are considered in the schedule.
-#   prohibited - All 24 hours of the day are coonsidered out of schedule.
+#   prohibited - All 24 hours of the day are considered out of schedule.
 
 # assume:
 #   The mode to use for days of the week that are not listed in the schedule.
