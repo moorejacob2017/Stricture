@@ -45,7 +45,7 @@ Examples:
 
 
 ## Making a schedule in YAML
-`Schedules` have many different ways to be instantiated and initialized. On of the easiest ways to create a schedule is to import it from a yaml file with `from_yaml_file`. Below is an explaination of how to format a schedule with yaml.
+`Schedules` have many different ways to be instantiated and initialized. One of the easiest ways to create a schedule is to import it from a yaml file with `from_yaml_file`. Below is an explaination of how to format a schedule with yaml.
 ```yaml
 # Days are classified into 1 of 3 modes: restricted, unrestricted, and prohibited.
 #   restricted - Days are considered in schedule, but only for the
