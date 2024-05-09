@@ -583,7 +583,7 @@ my_schedule = Schedule.from_json_file('./my_schedule.json')
 ```
 
 ### `from_yaml_file`
-Instantiates a `Schedule` object and initializes based on a provided json file.
+Instantiates a `Schedule` object and initializes based on a provided yaml file.
 
 ##### Example
 ```python

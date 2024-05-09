@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Stricture',
-    version='1.0.1',
+    version='1.0.4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -22,7 +22,7 @@ setup(
     ],
     author='Jacob Moore',
     author_email='moorejacob2017@gmail.com',
-    description='Stricture is a python package that provides classes and a CLI tool for easy scheduling, automating, and managing specific operations.',
+    description='Stricture is a python package that provides classes and a CLI tool for easy scheduling, automating, and managing of specific operations.',
     long_description=open('description.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/moorejacob2017/Stricture/',
