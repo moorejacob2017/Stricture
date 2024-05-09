@@ -1,6 +1,6 @@
 # Stricture CLI Tool
 
-The Stricture Python Package ships with a CLI tool for quickly applying a `Schedule` and `Stricture` to a command or running process.
+The Stricture Python Package ships with a CLI tool for starting and stopping a process or command given a schedule. This is done by sending a `SIGSTOP` to the process when the date and time are outside the schedule and a `SIGCONT` when the date and time are in the schedule.
 
 ```
 usage: stricture [-h] -s SCHEDULE [-q] [-o] [-e] (-p PID | -c COMMAND)
